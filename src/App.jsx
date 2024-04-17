@@ -17,7 +17,7 @@ let announcements = [
 function App() {
   return (
     <>
-    <Routes>
+    <Routes> 
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About announcements={announcements} />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
